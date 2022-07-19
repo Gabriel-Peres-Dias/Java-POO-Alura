@@ -16,6 +16,10 @@ public class CriaConta {
 		segundaConta.saldo = 500;
 		segundaConta.titular = "Carlos";
 		System.out.println("Segunda Conta:" + "\nTitular: " + segundaConta.titular + "\nSaldo: " + segundaConta.saldo);
+		
+		
+		System.out.println(primeiraConta.agencia);
+		System.out.println(primeiraConta.numero);
 	}
 
 }
