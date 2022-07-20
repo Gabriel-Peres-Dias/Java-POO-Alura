@@ -5,7 +5,7 @@ public class TestaBanco {
 			
 			Cliente gabriel = new Cliente();
 			gabriel.nome = "Gabriel";
-			gabriel.cpf = "07463446190";
+			gabriel.cpf = "xxxxxxxxxxx";
 			gabriel.profissao = "analista desenvolvedor junior";
 			
 			Conta contaDoGabriel = new Conta();
@@ -16,6 +16,6 @@ public class TestaBanco {
 			System.out.println("Nome do Titultar: " + contaDoGabriel.titular.nome);
 			System.out.println("CPF do Titultar: "  + contaDoGabriel.titular.cpf);
 			System.out.println("Profissão do Titultar: " + contaDoGabriel.titular.profissao);
-			System.out.println("Saldo da conta: " + contaDoGabriel.saldo);
+			System.out.println("Saldo da conta: " + contaDoGabriel.getSaldo());
 		}
 }
