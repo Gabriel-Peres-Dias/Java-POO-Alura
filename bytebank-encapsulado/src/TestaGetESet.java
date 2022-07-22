@@ -2,7 +2,7 @@
 public class TestaGetESet {
 	public static void main(String[] args) {
 		
-		Conta conta = new Conta();
+		Conta conta = new Conta(49607,54);
 		conta.setNumero(2);
 		System.out.println(conta.getNumero());
 		
