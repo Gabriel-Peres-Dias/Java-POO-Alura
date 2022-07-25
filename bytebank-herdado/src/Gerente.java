@@ -9,13 +9,9 @@ public class Gerente extends Funcionario{
 		return senha;
 	}
 
-
-
 	public void setSenha(int senha) {
 		this.senha = senha;
 	}
-
-
 
 	
 	  public boolean autentica(int senha) {
